@@ -9,13 +9,11 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/chocolate-cake-hero.jpg"
+          src="/images/hero.jpg"
           alt="Premium chocolate cake"
           fill
-          className="object-cover"
+          className="h-96 w-96 object-cover object-center"
           priority
-          placeholder="blur"
-          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkrHB0eH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAQAC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AJgNnZg5RZmzK8sEY3XH1FjOuMQrYzrCGRmIcnOzIvJgqXZFCa6yvQUjzMWY7"
         />
         <div className="absolute inset-0 bg-black/40" />
       </div>

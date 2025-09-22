@@ -12,6 +12,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const oregano = Oregano({
+  variable: "--font-oregano",
+  subsets: ["latin"],
+  weight: "400",
+});
+
 const parisienne = Parisienne({
   variable: "--font-parisienne",
   subsets: ["latin"],
@@ -32,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${parisienne.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${oregano.variable} ${parisienne.variable} antialiased`}
       >
         {children}
       </body>

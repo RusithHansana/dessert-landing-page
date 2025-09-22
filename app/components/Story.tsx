@@ -77,8 +77,8 @@ const Story = () => {
             <div className="relative">
               <div className="aspect-[4/5] relative rounded-lg overflow-hidden shadow-xl">
                 <Image
-                  src="/images/baker-story.jpg"
-                  alt="Maria Rodriguez in her bakery"
+                  src="/images/baker.jpg"
+                  alt="Dave in his bakery"
                   fill
                   className="object-cover"
                   placeholder="blur"

@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+:root {
+  --valencia: #cd4028;
+  --iroko: #3f321e;
+  --indian-khaki: #c4a48c;
+  --nutmeg: #84482c;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;

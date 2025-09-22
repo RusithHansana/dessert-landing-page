@@ -11,37 +11,37 @@ const Gallery = () => {
     {
       id: 1,
       title: "Classic Chocolate Cake",
-      image: "/images/chocolate-cake-1.jpg",
+      image: "/images/chocolate-cake.jpg",
       description: "Rich, moist chocolate cake with dark chocolate ganache",
     },
     {
       id: 2,
       title: "Triple Layer Delight",
-      image: "/images/chocolate-cake-2.jpg",
+      image: "/images/triple-layer.jpg",
       description: "Three layers of chocolate heaven with cream filling",
     },
     {
       id: 3,
       title: "Chocolate Strawberry",
-      image: "/images/chocolate-cake-3.jpg",
+      image: "/images/chocolate-strawberry.jpg",
       description: "Chocolate cake topped with fresh strawberries",
     },
     {
       id: 4,
       title: "Decadent Truffle Cake",
-      image: "/images/chocolate-cake-4.jpg",
+      image: "/images/truffle-cake.jpg",
       description: "Chocolate truffle cake with gold leaf decoration",
     },
     {
       id: 5,
       title: "Birthday Special",
-      image: "/images/chocolate-cake-5.jpg",
+      image: "/images/birthday.jpg",
       description: "Custom birthday cake with chocolate decorations",
     },
     {
       id: 6,
       title: "Anniversary Cake",
-      image: "/images/chocolate-cake-6.jpg",
+      image: "/images/anniversary.jpg",
       description: "Elegant anniversary cake with chocolate roses",
     },
   ];
