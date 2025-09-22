@@ -80,3 +80,7 @@ select:focus {
     rgba(0, 0, 0, 0.5) 100%
   );
 }
+
+.header-font {
+  font-family: "Parisienne", cursive;
+}

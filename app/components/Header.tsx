@@ -20,8 +20,8 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-amber-800">
-              Sweet Delights
+            <h1 className="text-2xl font-bold text-amber-800 header-font">
+              Dave's Delicious Desserts
             </h1>
           </div>
 
